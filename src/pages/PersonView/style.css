@@ -1,0 +1,79 @@
+@import '~antd/dist/antd.css';
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  padding-top: 50px;
+  color: white;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.btn-group {
+  display: flex;
+  flex-direction: row;
+}
+
+.action {
+  width: 150px;
+  height: 50px;
+  margin: 20px;
+}
+
+.watch-board {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.game-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.detailed {
+  margin: 10px;
+  font-size: 20px;
+}
+.dice {
+  margin: 3px;
+}
+ 
+.right {
+  border: 3px solid green;
+}
+
+.wrong {
+  border: 3px solid red;
+}
+
+
+
+
+
+.ant-form__label {
+  font-weight: bold !important;
+}
